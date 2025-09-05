@@ -1,1 +1,19 @@
-site_name: My Docs
+site_name: Dill's Personal Wiki
+site_url: http://localhost:8000
+site_author: Dill
+site_description: My knowledge hub for Linux, Python, and projects
+theme:
+  name: material
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+nav:
+  - Home: index.md
+  - Linux Notes: linux.md
+  - Python Projects: python.md
+  - Dashboard: dashboard.md
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+
