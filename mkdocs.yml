@@ -8,10 +8,17 @@ theme:
     primary: 'indigo'
     accent: 'indigo'
 nav:
+  - Getting Started: getting-started.md
   - Home: index.md
-  - Linux Notes: linux.md
-  - Python Projects: python.md
-  - Dashboard: dashboard.md
+  - Linux:
+    - Linux Notes: linux.md
+    - Bash Scripts: bash-scripts.md
+  - Python Projects:
+    - Python Projects: python.md
+  - Dashboards:
+    - System Dashboard: dashboard.md
+  - Networking:
+    - Networking: networking.md
 markdown_extensions:
   - toc:
       permalink: true
